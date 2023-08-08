@@ -1,5 +1,5 @@
 
-# HiFi_3_NDSP
+# HiFi_3z_NDSP
 * NatureDSP Library for HiFi3z DSP cores
 * The source code is common to both HiFi-3 and HiFi-3Z cores.
 * Separate xws are provided for HiFi3 and HiFi3z.  
