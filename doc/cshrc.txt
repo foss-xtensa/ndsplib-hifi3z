@@ -5,6 +5,7 @@ alias ri8 "setenv XTENSA_SYSTEM /XtDevTools/install/tools/RI-2021.8-linux/Xtensa
 
 alias ri9 "setenv XTENSA_SYSTEM /XtDevTools/install/tools/RI-2022.9-linux/XtensaTools/config/; set path = (/fac/vol11/audio/xtensa/XtDevTools/install/tools/RI-2022.9-linux/XtensaTools/bin $path); setenv XPLORER_W_AUTOMATION_PLUGIN /fac/vol11/audio/xtensa/Xplorer-9.0.17/xplorer"
 
+alias rj3 "setenv XTENSA_SYSTEM /XtDevTools/install/tools/RJ-2024.3-linux/XtensaTools/config/; set path = (/fac/vol11/audio/xtensa/XtDevTools/install/tools/RJ-2024.3-linux/XtensaTools/bin $path); setenv XPLORER_W_AUTOMATION_PLUGIN /fac/vol11/audio/xtensa/Xplorer-10.2.3/xplorer"
 alias hifi3 "setenv XTENSA_CORE AE_HiFi3_LE5_FP"
 
 alias cores 'xt-run --show-config=cores'

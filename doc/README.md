@@ -1,5 +1,6 @@
 # How to Build and Run the Source Code in Linux environment
-  * Get the latest or required version of NDSP HiFi3z Code from GitHub archived in zip format.  
+  * Get the latest or required version of NDSP HiFi3/3z Code from GitHub archived in zip format.
+  * This is a unified source code that compiles for both HiFi3 and HiFi3z cores.  
   * https://github.com/foss-xtensa/ndsplib-hifi3z/tree/main/NDSP_HiFi3z
   * Unzip or extract to the destination directory. 
 
@@ -8,19 +9,19 @@
   * **library** - contains the optimized kernel functions for the HiFi core 
   * **testdriver** - contains the demo driver code to tun the library   
 
-### It is assumed that the required HiFi core configurations and the Xtensa toolchain are set installed in the Linux environment.
+### It is assumed that the required HiFi core configurations and the Xtensa toolchain are installed in the Linux environment.
  An example .cshrc file  that sets up the build environment accordingly is provided for reference 
 
 ## Setting up the environment 
   * A typical way is to place this .cshrc file in your home directory and execute the following from the command line terminal... 
   * source ~/.cshrc 
-  * ri9
+  * rj3
   * setenv XTENSA_CORE CORE_NAME     
     Ex: setenv XTENSA_CORE AE_HiFi3z_LE5_FP 
   
 
 ## Compiling the Source Code: 
-  * Navigate to the testdriver directory:   …/NDSP_HiFi3z/build/project/xcc/testdriver/
+  * Navigate to the testdriver directory:   …/NDSP_HiFi3z/build/project/llvm/testdriver/
   * **CLEAN:**  make clean -j   
   * **BUILD:**  make all -j  
 
