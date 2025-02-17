@@ -15,13 +15,13 @@
 ## Setting up the environment 
   * A typical way is to place this .cshrc file in your home directory and execute the following from the command line terminal... 
   * source ~/.cshrc 
-  * rj3
+  * rj4
   * setenv XTENSA_CORE CORE_NAME     
-    Ex: setenv XTENSA_CORE AE_HiFi3z_LE5_FP 
+    Ex: setenv XTENSA_CORE AE_HiFi3Z_LE5_FP_XC_LX8 
   
 
 ## Compiling the Source Code: 
-  * Navigate to the testdriver directory:   …/NDSP_HiFi3z/build/project/llvm/testdriver/
+  * Navigate to the testdriver directory:   …/NDSP_HiFi3z/build/project/xtclang/testdriver/
   * **CLEAN:**  make clean -j   
   * **BUILD:**  make all -j  
 
@@ -29,13 +29,13 @@
 ## Examples : Running the executable: 
   ### Navigate to the bin directory: …/NDSP_HiFi3z/build/bin
   ### Performance tests:
-  * xt-run testdriver-AE_HiFi3z_LE5_FP_llvm-Xtensa-release -mips -sanity         
-  * xt-run testdriver-AE_HiFi3z_LE5_FP_llvm-Xtensa-release -mips -brief 
-  * xt-run testdriver-AE_HiFi3z_LE5_FP_llvm-Xtensa-release -mips -full   
+  * xt-run testdriver-AE_HiFi3Z_LE5_FP_XC_LX8__rj4__mm0_release_clang-Xtensa-release -mips -sanity         
+  * xt-run testdriver-AE_HiFi3Z_LE5_FP_XC_LX8__rj4__mm0_release_clang-Xtensa-release -mips -brief 
+  * xt-run testdriver-AE_HiFi3Z_LE5_FP_XC_LX8__rj4__mm0_release_clang-Xtensa-release -mips -full   
   ###	Functional tests:
-  * xt-run --turbo testdriver-AE_HiFi3z_LE5_FP_llvm-Xtensa-release -func -sanity
-  * xt-run --turbo testdriver-AE_HiFi3z_LE5_FP_llvm-Xtensa-release -func -brief
-  * xt-run --turbo testdriver-AE_HiFi3z_LE5_FP_llvm-Xtensa-release -func -full
-  * xt-run --turbo testdriver-AE_HiFi3z_LE5_FP_llvm-Xtensa-release -func -sanity -verbose 
-  * xt-run --turbo testdriver-AE_HiFi3z_LE5_FP_llvm-Xtensa-release -func -sanity -fir -verbose 
-  * xt-run --turbo testdriver-AE_HiFi3z_LE5_FP_llvm-Xtensa-release -func -brief -fir -iir -fft
+  * xt-run --turbo testdriver-AE_HiFi3Z_LE5_FP_XC_LX8__rj4__mm0_release_clang-Xtensa-release -func -sanity
+  * xt-run --turbo testdriver-AE_HiFi3Z_LE5_FP_XC_LX8__rj4__mm0_release_clang-Xtensa-release -func -brief
+  * xt-run --turbo testdriver-AE_HiFi3Z_LE5_FP_XC_LX8__rj4__mm0_release_clang-Xtensa-release -func -full
+  * xt-run --turbo testdriver-AE_HiFi3Z_LE5_FP_XC_LX8__rj4__mm0_release_clang-Xtensa-release -func -sanity -verbose 
+  * xt-run --turbo testdriver-AE_HiFi3Z_LE5_FP_XC_LX8__rj4__mm0_release_clang-Xtensa-release -func -sanity -fir -verbose 
+  * xt-run --turbo testdriver-AE_HiFi3Z_LE5_FP_XC_LX8__rj4__mm0_release_clang-Xtensa-release -func -brief -fir -iir -fft
