@@ -15,10 +15,10 @@
   * Detailed release documentation can be extracted from lib.xws/doc folder.
 
 ### Release v5.0.0 Brief:
-- This is the GitHub release package created with the beta release V5.0.0. 
-* Release Date : Feb 2025.
+- This is the GitHub release package created with the GA release V5.0.0. 
+* Release Date : May 2025.
 * The source code has been updated to make it compatible with RJ-2024.4 tool chain.
-* Verification & testing has been done with a very limited number of HiFi-3 (LX6.0.2)and HiFi-3z cores (LX8.0.3), with RJ-2024.4 tool chain 
+* Verification & testing has been done with various HiFi-3 (LX6.0.2)and HiFi-3z cores (LX8.0.3), with RJ-2024.4 tool chain 
 * Sanity testing has been done for backward compatibility on xt-clang using RJ-2024.3 tool chain (LX8.0.3) core for HiFi3z and LX6 cores for HiFI3..   
 
 * Known issues: 
