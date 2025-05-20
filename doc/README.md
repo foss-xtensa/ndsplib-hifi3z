@@ -1,4 +1,4 @@
-# How to Build and Run the Source Code in Linux environment
+# How to Build and Run the Source Code in Linux environment 
   * Get the latest or required version of NDSP HiFi3/3z Code from GitHub archived in zip format.
   * This is a unified source code that compiles for both HiFi3 and HiFi3z cores.  
   * https://github.com/foss-xtensa/ndsplib-hifi3z/tree/main/NDSP_HiFi3z
